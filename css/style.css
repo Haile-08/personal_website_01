@@ -137,6 +137,11 @@ body{
 }
 .about_svg{
     margin-top: 50px;
+    animation: bounce 1.5s;
+     animation-direction: alternate;
+     animation-iteration-count: infinite;
+     z-index: -1;
+    
 }
 .about_info{
     margin-top: 100px;
@@ -180,3 +185,67 @@ body{
 }
 
 /* ======skills ========== */
+
+.skill_container{
+    font-family: allfont;
+    color: var(--white--);
+    display: flex;
+    justify-content: space-between;
+}
+.skill_info{
+    margin-top: 150px;
+    margin-left: 150px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.info_title{
+    margin-bottom: 20px;
+}
+.info_title b{
+    color: var(--orange--);
+}
+.skill_info h4{
+    margin-bottom: 10px;
+}
+.i{
+    display: flex;
+    justify-content: space-between;
+   
+}
+.i h4{
+    padding-right: 150px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.i p{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.html{
+    border: 2px solid var(--blue_black--);
+    background-color: var(--orange--);
+    padding: 5px 10px;
+    box-shadow: 5px 5px 0px var(--orange--);
+}
+.css{
+    border: 2px solid var(--blue_black--);
+    background-color: var(--orange--);
+    padding: 5px 10px;
+    box-shadow: 5px 5px 0px var(--orange--);
+}
+.java{
+    border: 2px solid var(--blue_black--);
+    background-color: var(--orange--);
+    padding: 5px 10px;
+    box-shadow: 0px 2px var(--orange--),2px 0px var(--orange--),0px 2px var(--orange--),
+    -2px 0px  var(--orange--);
+}
+.php{
+    border: 2px solid var(--blue_black--);
+    background-color: var(--orange--);
+    padding: 5px 10px;
+    box-shadow: 5px 5px 0px var(--orange--);
+}
+.h:first-child{
+    background-color: blanchedalmond;
+}
