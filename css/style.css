@@ -12,7 +12,7 @@
 }
 html{
     scroll-behavior: smooth;
-    transition: 0.5s;
+    transition: 2s;
 }
 body{
     background-color: var(--blue_black--);
@@ -23,6 +23,11 @@ body{
     font-family: haile;
     src: url(Fuggles-Regular.ttf);
     font-size: 20px;
+}
+@font-face{
+    font-family: allfont;
+    src: url(Montserrat-ExtraLight.ttf);
+    
 }
 .nav_container{
       background-color:var(--blue_black_01--);
@@ -58,7 +63,7 @@ body{
     text-decoration: none;
     color: var(--white--);
     font-size: 15px;
-    font-family: sans-serif;
+    font-family: allfont;
     padding: 8px 20px;
    
 }
@@ -88,6 +93,7 @@ body{
      animation: bounce 1.5s;
      animation-direction: alternate;
      animation-iteration-count: infinite;
+     z-index: -1;
 }
 @keyframes bounce {
     from{
@@ -97,3 +103,80 @@ body{
         transform: translate3d(0,10px,0);
     }
 }
+
+.home_info{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.home_name{
+    margin-left: 200px;
+}
+.home_name h1{
+    font-family:allfont;
+    font-size: 40px;
+    padding-bottom: 20px;
+}
+.home_name p{
+    font-family: allfont;
+    font-size: 20px;
+    padding-left: 50px;
+}
+.me{
+    color: var(--orange--);
+    border:2px solid var(--orange--);
+}
+
+/* ===========about page========== */
+
+.about_container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 200px;
+    font-family: allfont;
+}
+.about_svg{
+    margin-top: 50px;
+}
+.about_info{
+    margin-top: 100px;
+    color: var(--white--);
+    display: flex;
+    justify-content: space-between;
+}
+.info_1 .box{
+    
+    border: 2px solid var(--orange--);
+    position: relative  ;
+    padding: 5px 10px;
+    margin-left: 200px;
+    margin-right: 90px;
+    right: 200px;
+    top: 50px;
+    z-index: -1;
+
+}
+.info_1{
+    margin-right: 30px;
+}
+.info_1 h1{
+    padding-bottom: 40px;
+}
+.info_1 b{
+    color: var(--orange--);
+}
+.info_2{
+    margin-top: 40px;
+}
+.info_2 p{
+    margin-bottom: 10px;
+}
+.info_2 b{
+    color: var(--orange--);
+}
+.info_2 a{
+    text-decoration: none;
+    color: #fff;
+}
+
+/* ======skills ========== */
