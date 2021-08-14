@@ -1,0 +1,99 @@
+:root{
+    --blue_black--: #090c17;
+    --blue_black_01--: #12141c;
+    --white--:#fff; 
+    --orange--:#f26c4f;
+  
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+    transition: 0.5s;
+}
+body{
+    background-color: var(--blue_black--);
+}
+
+/*===========the navigation bar ==========*/
+@font-face{
+    font-family: haile;
+    src: url(Fuggles-Regular.ttf);
+    font-size: 20px;
+}
+.nav_container{
+      background-color:var(--blue_black_01--);
+      padding: 30px 30px;
+      position: fixed;     
+      right: 0vh;
+      padding: 12vh 150vh;
+      padding-top: 0vh;
+
+
+      
+}
+.nav_icon{
+    font-family: haile;
+    font-size: 35px;
+    color: var(--blue_black--);
+    padding: 5px 5px;
+    background-color: var(--orange--);
+    border-radius: 10px;
+    border: 1px solid black;
+    position: fixed;
+    left: 100px;
+    top:50px;   
+}
+.nav_links{
+    position: fixed;
+    right: 10px;
+    top:30px;
+}
+
+.nav_links nav a{
+    margin-left: 20px;
+    text-decoration: none;
+    color: var(--white--);
+    font-size: 15px;
+    font-family: sans-serif;
+    padding: 8px 20px;
+   
+}
+.nav_links nav a:hover{
+    transition: 0.5s ease-in-out;
+    border:2px solid #f26d4fcb;
+    color: #f26d4fcb;
+    
+   
+}
+
+/*==========Home page============*/
+.home{
+   padding-top: 80px;
+
+}
+.home_name{
+    padding:50px 50px;
+    margin-top: 50px;
+    color: var(--white--);
+}
+.home_container{
+     display: flex;
+     justify-content: space-between;
+}
+.home_image{
+     animation: bounce 1.5s;
+     animation-direction: alternate;
+     animation-iteration-count: infinite;
+}
+@keyframes bounce {
+    from{
+        transform: translate3d(0,0,0);
+    }
+    to{
+        transform: translate3d(0,10px,0);
+    }
+}
