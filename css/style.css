@@ -132,8 +132,9 @@ body{
 .about_container{
     display: flex;
     justify-content: space-between;
-    margin-top: 270px;
+    margin-top: 100px;
     font-family: allfont;
+    padding-top: 100px;
 }
 .about_svg{
     margin-top: 50px;
@@ -144,7 +145,7 @@ body{
     
 }
 .about_info{
-    margin-top: 100px;
+    margin-top: 150px;
     color: var(--white--);
     display: flex;
     justify-content: space-between;
@@ -195,7 +196,9 @@ body{
     color: var(--white--);
     display: flex;
     justify-content: space-between;
-    margin-top: 250px;
+    margin-top: 100px;
+    padding-top: 100px;
+    margin-bottom: 100px;
 }
 .skill_info{
     margin-top: 150px;
@@ -316,7 +319,9 @@ body{
     justify-content: space-between;
     color: var(--white--);
     font-family: allfont;
-    marign-top:200px;
+    margin-top:100px;
+    padding-top: 100px;
+    margin-bottom: 200px;
 }
 .contact_info{
      display: flex;
@@ -369,15 +374,15 @@ body{
     align-items: center;
     color: #fff;
     font-family: allfont;
-    padding-top: 40px;
-    padding-bottom: 40px;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 .p{
     margin-bottom: 20px;
 }
 .low_f{
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     background-color: #000;
     color: var(--white--);
     font-family: allfont;
