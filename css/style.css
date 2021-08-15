@@ -132,7 +132,7 @@ body{
 .about_container{
     display: flex;
     justify-content: space-between;
-    margin-top: 250px;
+    margin-top: 270px;
     font-family: allfont;
 }
 .about_svg{
@@ -195,7 +195,7 @@ body{
     color: var(--white--);
     display: flex;
     justify-content: space-between;
-    margin-top: 200px;
+    margin-top: 250px;
 }
 .skill_info{
     margin-top: 150px;
@@ -316,6 +316,7 @@ body{
     justify-content: space-between;
     color: var(--white--);
     font-family: allfont;
+    marign-top:200px;
 }
 .contact_info{
      display: flex;
