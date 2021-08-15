@@ -132,7 +132,7 @@ body{
 .about_container{
     display: flex;
     justify-content: space-between;
-    margin-top: 200px;
+    margin-top: 250px;
     font-family: allfont;
 }
 .about_svg{
@@ -191,6 +191,7 @@ body{
     color: var(--white--);
     display: flex;
     justify-content: space-between;
+    margin-top: 200px;
 }
 .skill_info{
     margin-top: 150px;
@@ -222,30 +223,79 @@ body{
     margin-bottom: 10px;
 }
 .html{
-    border: 2px solid var(--blue_black--);
+    display: block;
+    border-radius: 10px;
+    overflow: hidden;
+    border: 2px solid #000;
     background-color: var(--orange--);
     padding: 5px 10px;
-    box-shadow: 5px 5px 0px var(--orange--);
+    width: 100%;
+    animation: html 3s;
 }
 .css{
-    border: 2px solid var(--blue_black--);
+    display: block;
+    border-radius: 10px;
+    overflow: hidden;
+    border: 2px solid #000;
     background-color: var(--orange--);
     padding: 5px 10px;
-    box-shadow: 5px 5px 0px var(--orange--);
+    width: 95%;
+    animation: css 3s;
 }
 .java{
-    border: 2px solid var(--blue_black--);
+    display: block;
+    border-radius: 10px;
+    overflow: hidden;
+    border: 2px solid #000;
     background-color: var(--orange--);
     padding: 5px 10px;
-    box-shadow: 0px 2px var(--orange--),2px 0px var(--orange--),0px 2px var(--orange--),
-    -2px 0px  var(--orange--);
-}
+    width: 80%;
+    animation: java 3s;
+    }
 .php{
-    border: 2px solid var(--blue_black--);
+    display: block;
+    border-radius: 10px;
+    overflow: hidden;
+    border: 2px solid #000;
     background-color: var(--orange--);
     padding: 5px 10px;
-    box-shadow: 5px 5px 0px var(--orange--);
+    width: 40%;
+    animation: php 3s;
 }
-.h:first-child{
-    background-color: blanchedalmond;
+.b{
+    border-radius: 10px;
+    box-shadow: 0px 1px 3px var(--orange--),0px 1px 2px var(--orange--);      
+    
+}
+@keyframes css {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 95%;
+    }
+}
+@keyframes java {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 80%;
+    }
+}
+@keyframes php {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 40%;
+    }
+}
+@keyframes html {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 100%;
+    }
 }
