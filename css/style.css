@@ -199,6 +199,12 @@ body{
     padding-left: 20px;
     padding-right: 20px;
 }
+.skill_svg{
+    animation: bounce 1.5s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    z-index: -1;
+}
 .info_title{
     margin-bottom: 20px;
 }
@@ -301,4 +307,53 @@ body{
 }
 
 /* =======contact page======== */
+.contact_container{
+    display: flex;
+    justify-content: space-between;
+    color: var(--white--);
+    font-family: allfont;
+}
+.contact_info{
+     display: flex;
+     justify-content: space-evenly;
+     font-family: allfont;
+     margin-right: 200px;
+     margin-top: 200px;
+}
+.s{
+    display: flex;
+    flex-direction: row;
+    margin-left: 50px;
+    background-color: var(--blue_black_01--);
+    margin-bottom: 150px; 
+    padding-left: 60px; 
+    padding-top: 40px;
+    transition: 0.5s;
+}
+.contact_svg{
+    animation: bounce 1.5s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    z-index: -1;
+}
+.s b{
+    position: relative;
+    top: 70px;
+    left:-50px;
+}
+.s a{
+    text-decoration: none;
+    color: var(--white--);
+}
+.s a i{
+    font-size: 40px;
+}
+
+.s:hover{
+    background-color: var(--orange--);
+    border-radius: 50%;
+    box-shadow: 2px 5px 2px var(--blue_black_01--);
+}
+
+/* ======footer======= */
 
