@@ -68,7 +68,7 @@ body{
    
 }
 .nav_links nav a:hover{
-    transition: 0.5s ease-in-out;
+    transition: 0.8s ease-in;
     border:2px solid #f26d4fcb;
     color: #f26d4fcb;
     
@@ -388,4 +388,72 @@ body{
     font-family: allfont;
     display: flex;
     justify-content: center;
+}
+
+
+/* =======media query====== */
+
+@media all and (max-width:500px){
+    /* ====nav=== */
+    .nav_container{
+        padding:15vh 200vh;
+    }
+    .nav_icon{
+        top:130px;
+    }
+    .nav_links{
+        top:50px;
+    }
+    .nav_links nav a{
+        margin-left: 50px; 
+        padding: 0px 100px;      
+    }
+    .nav_links nav a:hover{
+        color: var(--white--);
+    }
+    /* ====home====== */
+
+    .home_image img{
+       display: none;
+    
+   }
+   .home_name{
+       position: absolute;
+       top: 150px;
+       padding-left: 100px;
+       z-index: -1;
+   }
+   .home_name h1{
+       padding-left: 50px;
+   }
+   .home_container{
+       padding-bottom: 100px;
+   }
+   /* ======about page====== */
+
+   .about_svg img{
+       display: none;
+
+   }
+   .about_container{
+       padding-top: 100px;
+   }
+   .info_2{
+       display: none;
+   }
+   .info_1{
+       padding-left: 50px;
+   }
+
+   /* ======skills page ====== */
+
+   .skill_svg{
+       display: none;
+
+   }
+   .skill_info{
+       margin-top: 90px;
+       margin-left: 0px;
+       padding-left: 10px;
+   }
 }
