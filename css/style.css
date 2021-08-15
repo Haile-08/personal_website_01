@@ -467,5 +467,16 @@ body{
     .contact_info{
         display: none;
     }
+    /* ========footer====== */
+    .upper_f{
+        font-size: 10px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .low_f{
+        font-size: 8px;
+        padding-bottom: 5px;
+        padding-top: 5px;
+    }
 
 }
